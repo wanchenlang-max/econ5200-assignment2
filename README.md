@@ -13,7 +13,8 @@ This audit examines three common statistical deceptions that distort decision-ma
 
 A system reports **"average latency: 50ms"** — sounds great, right?
 
-![Latency Distribution](latency_distribution.png)
+<img width="870" height="556" alt="image" src="https://github.com/user-attachments/assets/85297d33-004f-4ea0-84d3-2cd7a7b5b5f6" />
+
 
 **What the histogram reveals:** Nearly all requests (~980) complete in under 100ms, but the distribution has a **heavy tail** extending to 5,000ms. Those rare slow requests? They're the ones your users remember.
 
